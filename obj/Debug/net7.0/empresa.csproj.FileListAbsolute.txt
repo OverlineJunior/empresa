@@ -1,0 +1,15 @@
+/home/over/Documents/empresa/bin/Debug/net7.0/empresa
+/home/over/Documents/empresa/bin/Debug/net7.0/empresa.deps.json
+/home/over/Documents/empresa/bin/Debug/net7.0/empresa.runtimeconfig.json
+/home/over/Documents/empresa/bin/Debug/net7.0/empresa.dll
+/home/over/Documents/empresa/bin/Debug/net7.0/empresa.pdb
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.csproj.AssemblyReference.cache
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.GeneratedMSBuildEditorConfig.editorconfig
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.AssemblyInfoInputs.cache
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.AssemblyInfo.cs
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.csproj.CoreCompileInputs.cache
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.dll
+/home/over/Documents/empresa/obj/Debug/net7.0/refint/empresa.dll
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.pdb
+/home/over/Documents/empresa/obj/Debug/net7.0/empresa.genruntimeconfig.cache
+/home/over/Documents/empresa/obj/Debug/net7.0/ref/empresa.dll
