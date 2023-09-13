@@ -5,12 +5,13 @@ class Chefe : Funcionario {
         string nome,
         int idade,
         Sexo sexo,
+        Cidade cidade,
         string matricula,
         decimal salBase,
         decimal gratProd,
         int numDependentes,
         decimal gratChefia
-    ): base(nome, idade, sexo, matricula, salBase, gratProd, numDependentes) {
+    ): base(nome, idade, sexo, cidade, matricula, salBase, gratProd, numDependentes) {
         GratChefia = gratChefia;
     }
 

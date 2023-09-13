@@ -3,11 +3,12 @@ class Apoio : Funcionario {
         string nome,
         int idade,
         Sexo sexo,
+        Cidade cidade,
         string matricula,
         decimal salBase,
         decimal gratProd,
         int numDependentes
-    ): base(nome, idade, sexo, matricula, salBase, gratProd, numDependentes) {}
+    ): base(nome, idade, sexo, cidade, matricula, salBase, gratProd, numDependentes) {}
 
     public decimal CalcularAuxilioEducacao() {
         return Math.Clamp(NumDependentes * 60, 0, 5 * 60);

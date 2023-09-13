@@ -12,6 +12,7 @@ class Empresa {
     public void ProcessarFolha(Interface interface_) {
         for (int i = 0; i < NumFuncionarios; i++) {
             string nome = "";
+            Cidade cidade = new("", "", 0, new Estado("", "", 0, new Pais("", "", "", 0)));
             Cargo cargo = Cargo.Funcionario;
             string matricula = "";
             int numDependentes = 0;
@@ -19,13 +20,14 @@ class Empresa {
             decimal gratProd = 0;
             decimal gratChefia = 0;
 
-            interface_.LerDadosUsuario(ref nome, ref cargo, ref matricula, ref numDependentes, ref gratProd, ref gratChefia, ref salBase);
+            interface_.LerDadosUsuario(ref nome, ref cidade, ref cargo, ref matricula, ref numDependentes, ref gratProd, ref gratChefia, ref salBase);
 
             Funcionario funcionario = cargo switch {
                 Cargo.Funcionario => new Funcionario(
                     nome,
                     18,
                     Sexo.Masculino,
+                    cidade,
                     matricula,
                     salBase,
                     gratProd,
@@ -35,6 +37,7 @@ class Empresa {
                     nome,
                     18,
                     Sexo.Masculino,
+                    cidade,
                     matricula,
                     salBase,
                     gratProd,
@@ -45,6 +48,7 @@ class Empresa {
                     nome,
                     18,
                     Sexo.Masculino,
+                    cidade,
                     matricula,
                     salBase,
                     gratProd,

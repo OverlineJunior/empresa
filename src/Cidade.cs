@@ -9,5 +9,5 @@ class Cidade {
         DDD = ddd;
         Codigo = codigo;
         Estado = estado;
-    }    
+    }
 }

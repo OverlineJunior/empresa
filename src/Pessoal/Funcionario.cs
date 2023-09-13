@@ -8,11 +8,12 @@ class Funcionario : Pessoa {
         string nome,
         int idade,
         Sexo sexo,
+        Cidade cidade,
         string matricula,
         decimal salBase,
         decimal gratProd,
         int numDependentes
-    ) : base(nome, idade, sexo) {
+    ) : base(nome, idade, sexo, cidade) {
         Matricula = matricula;
         SalBase = salBase;
         GratProd = gratProd;
